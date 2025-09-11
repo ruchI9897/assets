@@ -1,4 +1,71 @@
-@font-face {
+
+        :root {
+    --ts-var-button-border-radius: 30px;
+--ts-var-button--icon-border-radius: 10px;
+--ts-var-application-color: #FCC838;
+--ts-var-segment-control-hover-background: #FCC838;
+--ts-var-search-navigation-button-background: #2E75F0;
+--ts-var-search-bar-navigation-help-text-background: #F04152;
+--ts-var-answer-edit-panel-background-color: #F04152;
+--ts-var-search-bar-text-font-color: #F04152;
+--ts-var-answer-data-panel-background-color: #FCC838;
+--ts-var-nav-background: #2E75F0;
+--ts-var-home-favorite-suggestion-card-background: #721F27;
+--ts-var-home-favorite-suggestion-card-text-color: #8C62F5;
+--ts-var-liveboard-tile-background: #F04152;
+--ts-var-viz-tile-height: 1000px;
+--ts-var-liveboard-tile-border-radius: 10px;
+--ts-var-liveboard-tile-padding: 30px;
+--ts-var-liveboard-tile-table-header-background: #FCC838;
+--ts-var-liveboard-tile-title-fontsize: 30px;
+--ts-var-liveboard-tile-title-fontweight: 12px;
+--ts-var-liveboard-group-padding: 30px;
+--ts-var-liveboard-header-badge-active-color: #2E75F0;
+--ts-var-liveboard-header-badge-background: #F04152;
+--ts-var-liveboard-header-badge-modified-background: #8C62F5;
+--ts-var-liveboard-header-badge-font-color: #FCC838;
+--ts-var-liveboard-header-badge-hover-color: #747E8C;
+--ts-var-liveboard-header-action-button-background: #F04152;
+--ts-var-liveboard-header-action-button-font-color: #48D1E0;
+--ts-var-liveboard-header-action-button-hover-color: #06BF7F;
+--ts-var-liveboard-header-action-button-active-color: #FF8142;
+--ts-var-menu-background: #2E75F0;
+--ts-var-liveboard-notetitle-heading-font-color: #FCC838;
+--ts-var-liveboard-edit-bar-background: #2E75F0;
+--ts-var-liveboard-tab-hover-color: #8C62F5;
+--ts-var-liveboard-tab-active-border-color: #FCC838;
+--ts-var-liveboard-chip-background: #F04152;
+--ts-var-liveboard-chip--hover-background: #FCC838;
+--ts-var-liveboard-chip-color: #2E75F0;
+--ts-var-viz-background: #FCC838;
+: ;
+--ts-var-root-background: #747E8C;
+--ts-var-root-color: #F04152;
+--ts-var-root-font-family: poppins;
+}
+        /* manrope-400 */ @font-face {
+    font-family: "Manrope";
+font-style: "normal";
+font-weight: "400";
+font-display: "swap";
+src: url(https://cdn.jsdelivr.net/gh/ruchI9897/assets/manrope_5.2.6_latin-400-normal.woff2) format('woff2');
+}
+/* custom-cossette-600 */ @font-face {
+    font-family: Cossette;
+font-style: italic;
+font-weight: 600;
+font-display: swap;
+src: url(https://fonts.googleapis.com/css2?family=Bytesized&family=Cossette+Titre:wght@400;700&family=Libertinus+Sans:ital,wght@0,400;0,700;1,400&family=Mozilla+Headline:wght@200..700&family=Rubik+Iso&display=swap) format("woff2");
+}
+/* custom-poppins-700 */ @font-face {
+    font-family: poppins;
+font-style: italic;
+font-weight: 700;
+font-display: swap;
+src: url(https://fonts.gstatic.com/s/poppins/v21/pxiEyp8kv8JHgFVrJJfecnFHGPc.woff2) format('woff2') format("woff2");
+}
+    
+/* Lato */@font-face {
   font-family: 'Lato';
   font-style: normal;
   font-weight: 400;
@@ -6,7 +73,7 @@
   src: url(https://fonts.gstatic.com/s/lato/v21/S6u_w4BMUTPHjxsIPFz8FQ.woff2) format('woff2');
 }
 
-@font-face {
+/* Lato 700 */@font-face {
   font-family: 'Lato';
   font-style: normal;
   font-weight: 700;
