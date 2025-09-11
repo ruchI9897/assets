@@ -41,7 +41,7 @@
 : ;
 --ts-var-root-background: #747E8C;
 --ts-var-root-color: #F04152;
---ts-var-root-font-family: poppins;
+--ts-var-root-font-family: Poppins;
 }
         /* manrope-400 */ @font-face {
     font-family: "Manrope";
@@ -50,33 +50,18 @@ font-weight: "400";
 font-display: "swap";
 src: url(https://cdn.jsdelivr.net/gh/ruchI9897/assets/manrope_5.2.6_latin-400-normal.woff2) format('woff2');
 }
-/* custom-cossette-600 */ @font-face {
-    font-family: Cossette;
-font-style: italic;
-font-weight: 600;
+/* custom-lato-800 */ @font-face {
+    font-family: Lato;
+font-style: "italic";
+font-weight: "800";
 font-display: swap;
-src: url(https://fonts.googleapis.com/css2?family=Bytesized&family=Cossette+Titre:wght@400;700&family=Libertinus+Sans:ital,wght@0,400;0,700;1,400&family=Mozilla+Headline:wght@200..700&family=Rubik+Iso&display=swap) format("woff2");
+src: url(https://fonts.gstatic.com/s/lato/v21/S6u8w4BMUTPHjxsI6B1fFQ.woff2) format('woff2');
 }
 /* custom-poppins-700 */ @font-face {
-    font-family: poppins;
-font-style: italic;
-font-weight: 700;
+    font-family: Poppins;
+font-style: "italic";
+font-weight: "700";
 font-display: swap;
-src: url(https://fonts.gstatic.com/s/poppins/v21/pxiEyp8kv8JHgFVrJJfecnFHGPc.woff2) format('woff2') format("woff2");
+src: url(https://fonts.gstatic.com/s/poppins/v21/pxiEyp8kv8JHgFVrJJfecnFHGPc.woff2) format('woff2');
 }
     
-/* Lato */@font-face {
-  font-family: 'Lato';
-  font-style: normal;
-  font-weight: 400;
-  font-display: swap;
-  src: url(https://fonts.gstatic.com/s/lato/v21/S6u_w4BMUTPHjxsIPFz8FQ.woff2) format('woff2');
-}
-
-/* Lato 700 */@font-face {
-  font-family: 'Lato';
-  font-style: normal;
-  font-weight: 700;
-  font-display: swap;
-  src: url(https://fonts.gstatic.com/s/lato/v21/S6u8w4BMUTPHjxsI6B1fFQ.woff2) format('woff2');
-}
