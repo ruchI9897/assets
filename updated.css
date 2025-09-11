@@ -45,22 +45,22 @@
 }
         /* manrope-400 */ @font-face {
     font-family: "Manrope";
-font-style: "normal";
-font-weight: "400";
-font-display: "swap";
+font-style: normal;
+font-weight: 400;
+font-display: swap;
 src: url(https://cdn.jsdelivr.net/gh/ruchI9897/assets/manrope_5.2.6_latin-400-normal.woff2) format('woff2');
 }
 /* custom-lato-800 */ @font-face {
     font-family: Lato;
-font-style: "italic";
-font-weight: "800";
+font-style: italic;
+font-weight: 800;
 font-display: swap;
 src: url(https://fonts.gstatic.com/s/lato/v21/S6u8w4BMUTPHjxsI6B1fFQ.woff2) format('woff2');
 }
 /* custom-poppins-700 */ @font-face {
     font-family: Poppins;
-font-style: "italic";
-font-weight: "700";
+font-style: italic;
+font-weight: 700;
 font-display: swap;
 src: url(https://fonts.gstatic.com/s/poppins/v21/pxiEyp8kv8JHgFVrJJfecnFHGPc.woff2) format('woff2');
 }
